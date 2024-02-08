@@ -41,7 +41,8 @@ class _HomeScreenState extends State<HomeScreen> {
             Gap(Dimensions.height20),
             const SearchBox(size: 0),
             Gap(Dimensions.height10),
-
+            // const RecentlyPlayedSongs(),
+            Gap(Dimensions.height10),
             Stack(
               children: [
                 ClipRRect(
